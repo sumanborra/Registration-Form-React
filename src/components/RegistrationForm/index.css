@@ -1,0 +1,126 @@
+/* Write your CSS code here */
+.backgroubd-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 42px;
+}
+.form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  font-family: 'Roboto';
+  border-radius: 14px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 40%;
+}
+.heading-registration {
+  color: #ea580c;
+  font-weight: 800;
+}
+@media (max-width: 767px){
+  .backgroubd-container{
+    padding: 20px;
+    font-size: 28px;
+  }
+  .form-container{
+    padding: 10px;
+    width: 100%;
+  }
+}
+.first-name-label-text {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 600;
+}
+.input-element {
+  height: 40px;
+  width: 250px;
+  padding: 8px;
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #cbd2d9;
+  border: 1px solid #9aa5b1;
+  border-radius: 10px;
+}
+@media (max-width:767px){
+  .first-name-label-text{
+    font-size: 12px;
+  }
+  .input-element{
+    height: 30px;
+    width: 150px;
+    padding: 5px;
+  }
+}
+.feilds-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.fotm-button {
+  font-family: 'Robto';
+  text-align: center;
+}
+.buttn {
+  font-family: 'Roboto';
+  font-size: 18px;
+  padding: 10px;
+  background-color: #ea580c;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+}
+.input-error-mesg {
+  background-color: #fef2f4;
+  border: 1px solid #ff0b37;
+}
+.error-msg-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ff0b37;
+}
+@media (max-width:767px){
+  .buttn{
+    font-size: 14px;
+    padding: 5px;
+  }
+  .error-msg-text{
+    font-size: 14px;
+  }
+}
+.image-submit {
+}
+.container-success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para-text {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #475569;
+}
+.another-response-buttn {
+  font-family: 'Roboto';
+  font-size: 18px;
+  background-color: #ea580c;
+  border-radius: 8px;
+  border-width: 0px;
+  height: 40px;
+  color: #ffffff;
+}
+@media (max-width: 767px){
+  .para-text{
+    font-size: 16px;
+  }
+  .another-response-buttn{
+    font-size: 16px;
+    
+  }
+}
